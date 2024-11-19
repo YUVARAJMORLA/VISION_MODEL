@@ -5,6 +5,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import os
 from PIL import Image
+import setuptools
 
 # Load the VGG16 model
 model2 = load_model(r"vgg16.h5", compile=False)
